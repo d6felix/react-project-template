@@ -91,7 +91,14 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".jsx", ".js", ".ts"],
     alias: {
-      "~": path.join(srcPath, "/"),
+      "~components": path.join(srcPath, "/components"),
+      "~utils": path.join(srcPath, "/utils"),
+      "~assets": path.join(srcPath, "/assets"),
+      "~features": path.join(srcPath, "/features"),
+      "~pages": path.join(srcPath, "/pages"),
+      "~hooks": path.join(srcPath, "/hooks"),
+      "~store": path.join(srcPath, "/store"),
+      "~schema": path.join(srcPath, "/schema"),
     },
   },
   optimization: {
