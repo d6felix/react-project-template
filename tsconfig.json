@@ -18,6 +18,7 @@
     "sourceMap": true,
     "allowJs": true,
     "skipLibCheck": true,
+    "noImplicitAny": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
